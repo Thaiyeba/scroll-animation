@@ -8,7 +8,7 @@ const frameCount = 200;
 
 // Image filename formatter
 const currentFrame = index =>
-  `images/ezgif-frame-${String(index).padStart(3, "0")}.jpg`;
+  `ezgif-frame-${String(index).padStart(3, "0")}.jpg`;
 
 const images = [];
 const img = new Image();
@@ -48,3 +48,4 @@ window.addEventListener("scroll", () => {
         );
     });
 });
+
